@@ -8,6 +8,12 @@ namespace Tutorium_TextAdventure
 {
     public abstract class BaseState
     {
+        public string roomName;
+        public BaseState(string roomName)
+        {
+            this.roomName = roomName;
+        }
+
         public abstract void EnterState();
         public abstract void ExitState();
         public abstract BaseState CheckConditions();
