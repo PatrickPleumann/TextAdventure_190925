@@ -10,11 +10,10 @@ namespace Tutorium_TextAdventure
 {
     public class Names
     {
-        List<string> prefix = new List<string> { "", "", "" };
-        List<string> names = new List<string> { "", "", "" };
-        List<string> suffix = new List<string> { "", "", "" };
-
-
-        List<string> RoomDescription = new List<string>();
+        public List<string> names = new List<string> { "a", "b", "c" };
+        public List<string> suffix = new List<string> { "d", "e", "f" };
+        public List<string> prefix = new List<string> { "g", "h", "i" };
+        
+        public List<string> RoomDescription = new List<string>();
     }
 }

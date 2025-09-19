@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tutorium_TextAdventure.Rooms
 {
-    internal class Room1 : BaseState
+    internal class Exit : BaseState
     {
-        public Room1(string roomName) : base(roomName)
+        public Exit(string roomName) : base(roomName)
         {
         }
 
